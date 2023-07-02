@@ -1,3 +1,4 @@
+
 package LayoutManagement;
 
 import java.awt.FlowLayout;
@@ -32,6 +33,8 @@ public class FlowLayoutDemo  extends JFrame{
 
 	public static void main(String[] args) {
 		new FlowLayoutDemo();
+		
+		
 	}
 
 }

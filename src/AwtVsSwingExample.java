@@ -1,3 +1,6 @@
+import AdvancedSwingComponent.TableTreeProgressBar;
+
+
 import java.awt.*;
 import javax.swing.*;
 
@@ -16,6 +19,9 @@ public class AwtVsSwingExample {
         swingFrame.add(new JLabel("This is a Swing Frame"));
         swingFrame.setSize(300, 200);
         swingFrame.setVisible(true);
+        
+        TableTreeProgressBar tabletree = new TableTreeProgressBar();
+        tabletree.print();
 
     }
 }
